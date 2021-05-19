@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&display=swap');
+body{
+    max-width: 70%;
+    margin:0 auto;
+}
+.header{
+    max-width: 940px;
+
+}
+
+.header .h-right{
+    position: relative;
+    float: right;
+}
+
+.header .h-left{
+    position: relative;
+    float: left;
+}
+
+.header img{
+    width: 64px;
+    height: auto;
+}
+
+.h-right nav{
+    padding-top: 22px;
+}
+
+.header a{
+    text-decoration: none;
+    padding: 6px;
+}
+.one{
+    margin-top: 50px;
+    position: absolute;
+}
+
+
+.one img{
+    width: 30em;
+    float: right;
+}
+
+nav{
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+h3{
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+}
+p,a,ul{
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
