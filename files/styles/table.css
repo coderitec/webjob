@@ -1,0 +1,33 @@
+table{
+    /* border-collapse: collapse; */
+    border-spacing: 0.5em;
+}
+
+td, th{
+    border: 2px dashed green;
+    padding: 4.5em ;
+}
+
+table caption{
+    background-color: hotpink;
+    margin-bottom: 1.5em;
+    padding: 1.5em 0;
+}
+tbody td:last-child{
+    background-color: lawngreen;
+}
+table td:nth-child(even):hover{
+    /* border-width: 2em; */
+    border-image: url(../images/champions_of_europe.jpg) 30 / 30px round;
+    /* border-image-slice: fill; */
+    
+}
+
+table th:nth-child(odd):hover{
+    border-image: url(../images/franc.png) 30 / 30px round;
+
+}
+
+td:first-of-type{
+    text-transform: uppercase;
+}

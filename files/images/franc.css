@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+h1,h2{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #7bdf0a;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 1em;
+    border-bottom: 2px double #7bdf0a;
+}
+
+h3{
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: #7bdf0a;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 1em;
+    border-bottom: 2px dotted #7bdf0a;
+}
+
+
+p,a,li{
+    font-size: 1.6rem;
+    font-family: 'EB Garamond', serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+}
+header nav{
+    margin-left: 55%;
+}
+header img{
+    max-width: 8em;
+    
+}
+nav a{
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 1.3em;
+    color: black;
+}
+nav a:hover{
+    color: #7bdf0a;
+    border-bottom: 3px solid #7bdf0a;
+
+}
+
+.intro, .wed{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+}
+
+.projects{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2em;   
+}
+
+.projects img{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+a.bod{
+    color: #7bdf0a;
+    text-decoration: none;
+}
+
+a.bod:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #7bdf0a;
+}

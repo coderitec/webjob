@@ -1,0 +1,83 @@
+input{
+    padding: 1.2em 0 0.6em 0.4em;
+    border: none;
+    font-size: 20px;
+    color: blue;
+    background:none;
+}
+input:focus{
+    outline: none;
+}
+form{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+form h2{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+form p{
+    font-size: 18px;
+    font-style: italic;
+}
+form button{
+    padding: 1em 2.7em;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: blue;
+    background-color: rgba(204, 204, 204, 0.164);
+    border-radius: 30px;
+    border: none;
+    box-shadow: 10px 5px 20px rgba(55, 87, 163, 0.63);
+}
+form button:hover{
+    color: white;
+    background-color: rgba(46, 97, 179, 0.897);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container aside:first-of-type{
+    background: url(../images/champions_of_europe-h.png);
+   
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30% 0;
+    max-width: 80%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+aside > div{
+    background: rgba(42, 110, 165, 0.863);
+    height: 100vh;
+    padding-top: 3em;
+}
+i{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.205);
+    padding-left: 2em;
+}
+.input{
+    margin-bottom: 1.8em;
+    background-color: rgba(204, 204, 204, 0.164);
+    width: 70%;
+    border-bottom: 2px solid blue ;
+    border-radius: 30px;
+}
+
+.media i{
+    font-size: 50px;
+    color: white;
+}
+
+.media i:hover{
+    color: rgba(1, 1, 26, 0.952);
+}

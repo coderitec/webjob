@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/form.css">
+    <script src="https://kit.fontawesome.com/cd2874a9a0.js" crossorigin="anonymous"></script>
+    <title>Registration form</title>
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>personal information</legend>
+                <label for="fname">first name</label>
+                <input type="text" name="name" id="fname" autofocus required /><br/>
+
+                <label for="sname">surname</label>
+                <input type="text" name="name" id="sname" required /><br/>
+
+                <label for="dob">Date of birth</label>
+                <input type="date" name="date" id="dob" required><br/>
+
+                <fieldset class="real">
+                    <legend>gender</legend>
+                    <label for="male">male</label>
+                    <input type="radio" name="gender" id="male"><br/>
+                    <label for="female">female</label>
+                    <input type="radio" name="gender" id="female"><br/>
+                </fieldset>
+
+                <fieldset class="real">
+                    <legend>marital status</legend>
+                    <label for="single">single</label>
+                    <input type="radio" name="marital" id="single" checked><br/>
+                    <label for="married">married</label>
+                    <input type="radio" name="marital" id="married"><br/>
+                    <label for="divorce">divorced</label>
+                    <input type="radio" name="marital" id="divorce"><br/>
+                    <label for="widowed">widowed</label>
+                    <input type="radio" name="marital" id="widowed"><br/>
+                </fieldset>
+
+                <label for="pbirth">place of birth</label>
+                <input type="text" name="pbirth" id="pbirth"><br/>
+
+                <label for="phone">phone number</label>
+                <input type="tel" name="phone" id="phone" size="11"/><br/>
+
+                <label for="password">create password</label>
+                <input type="password" name="password" id="password" /><br/>
+
+                <fieldset>
+                    <legend>state of origin</legend>
+                    <select name="state" id="state">
+                        <option value="" selected>choose your state of origin</option>
+                        <optgroup label="south-east">
+                            <option value="en">enugu</option>
+                            <option value="ab">abia</option>
+                            <option value="im">imo</option>
+                            <option value="an">anambra</option>
+                        </optgroup>
+                        <optgroup label="south-west">
+                            <option value="lg">lagos</option>
+                            <option value="os">osun</option>
+                            <option value="og">ogun</option>
+                        </optgroup>
+                        <optgroup label="south-south">
+                            <option value="rv">rivers</option>
+                            <option value="cr">cross river</option>
+                            <option value="by">bayelsa</option>
+                            <option value="de">delta</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <label for="email">email address</label>
+                <input type="email" name="" id="email" placeholder="johnwick@mail.com"><br/>
+
+                <label for="photo">photo</label>
+                <input type="file" name="photo" id="photo" accept="image/png, image/jpeg" multiple>
+            </fieldset>
+
+            <fieldset class="real skill">
+                <legend>skills</legend>
+                <div>
+                    <input type="checkbox" name="skills" id="skilla">
+                    <label for="skilla">photoshop</label><br/>
+    
+                    <input type="checkbox" name="skills" id="skillb">
+                    <label for="skillb">coreldraw</label><br/>
+    
+                    <input type="checkbox" name="skills" id="skillc">
+                    <label for="skillc">html</label><br/>
+    
+                    <input type="checkbox" name="skills" id="skilld">
+                    <label for="skilld">css</label><br/>
+    
+                    <input type="checkbox" name="skills" id="skille">
+                    <label for="skille">javascript</label><br/>
+                </div>
+                <div>
+                    <input type="checkbox" name="skills" id="skillf">
+                    <label for="skillf">react</label><br/>
+    
+                    <input type="checkbox" name="skills" id="skillg">
+                    <label for="skillg">node</label><br/>
+    
+                    <input type="checkbox" name="skills" id="skillh">
+                    <label for="skillh">python</label><br/>
+    
+                    <input type="checkbox" name="skills" id="skilli">
+                    <label for="skilli">sql</label><br/>
+    
+                    <input type="checkbox" name="skills" id="skillj">
+                    <label for="skillj">scss</label><br/>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>describe yourself in not less than 200 words</legend>
+                <textarea name="" id="" cols="30" rows="10" spellcheck="en" >
+
+                </textarea>
+            </fieldset>
+            <button type="reset">reset</button>
+            <button type="submit">send</button>
+        </form>
+    </main>
+</body>
+</html>

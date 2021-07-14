@@ -1,0 +1,57 @@
+form{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+legend{
+    text-transform: uppercase;
+    padding: 0.8em 0;
+    text-align: center;
+}
+label{
+    display: block;
+    text-transform: capitalize;
+    padding: 0.7em 0;
+}
+fieldset{
+    background-color: rgba(57, 233, 236, 0.219);
+    border: none;
+}
+input{
+    width: 40%;
+    height: 30px;
+    padding: 0.5em 0;
+    border: none;
+    background-color: rgba(169, 169, 169, 0.096);
+    border-radius: 5%;
+}
+input:hover{
+    box-shadow: 0.1em 0.1em rgba(57, 233, 236, 0.815);;
+}
+.real input{
+    width:auto;
+    height:auto;
+}
+.real label{
+    display: inline;
+}
+.skill div{
+    display: inline-block;
+    margin-left: 2em;
+}
+button{
+    text-align: center;
+    font-size: larger;
+    padding:0.7em  1.4em;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgba(23, 224, 214, 0.561);
+    border-radius: 150% 50%;
+}
+button:hover{
+    background-color: black;
+    color: cyan;
+}
+button[type="reset"]{
+    margin-left: 40%;
+}
