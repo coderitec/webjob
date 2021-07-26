@@ -1,62 +1,139 @@
-main div{
-    border: 4px solid blue;
+
+    
+
+@media (max-width: 1400px){
+    
+    main div{
+        border: 4px solid blue;
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 10em 15em );
+        grid-gap: 0.5em;
+    }
+    
+    .one{
+       grid-area: 6/3/7/4;
+    }
+    .two{
+        grid-area: 1/1/3/2;
+    }
+    .three{
+        grid-area: 3/1/6/2;
+    }
+    .four{
+        grid-area: 6/1/7/2;
+    }
+    .five{
+        grid-area: 2/3/3/4;
+    }
+    .six{
+        grid-area: 4/2/6/3;
+    }
+    .seven{
+        grid-area: 1/2/2/3;
+    }
+    .eight{
+        grid-area: 5/3/6/4;
+    }
+    .nine{
+        grid-area: 1/3/2/4;
+    }
+    .ten{
+        grid-area: 3/2/4/3;
+    }
+    .eleven{
+        grid-area: 6/2/7/3;
+    }
+    .twelve{
+        grid-area: 3/3/5/4;
+    }
+    .thirteen{
+        grid-area: 2/2/3/3;
+    }
+    
+    /* .odd{
+        background: linear-gradient(45deg, yellow 30%, blue 30%, blue 60%, green 35%);
+    }
+    
+    .even{
+        background: radial-gradient(cyan 30%, tomato 30%, tomato 60%, magenta 35%);
+    }
+    
+    .prime{
+        background: repeating-linear-gradient(60deg, khaki 30%,  orchid 35% );
+    } */
 }
 
-main{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 10em 15em );
-    grid-gap: 0.5em;
+@media (max-width: 754px){
+    
+    main div{
+        border: 4px ridge rgb(255, 251, 14);
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(13, 5em);
+        grid-gap: 0.5em;
+    }
+    
+    .one{
+       grid-area: 1/1/2/2;
+      
+    }
+    .two{
+        grid-area: 2/1/3/2;
+    }
+    .three{
+        grid-area: 3/1/4/2;
+    }
+    .four{
+        grid-area: 4/1/5/2;
+    }
+    .five{
+        grid-area: 5/1/6/2;
+    }
+    .six{
+        grid-area: 6/1/7/2;
+    }
+    .seven{
+        grid-area: 7/1/8/2;
+    }
+    .eight{
+        grid-area: 8/1/9/2;
+    }
+    .nine{
+        grid-area: 9/1/10/2;
+    }
+    .ten{
+        grid-area: 10/1/11/2;
+    }
+    .eleven{
+        grid-area: 11/1/12/2;
+    }
+    .twelve{
+        grid-area: 12/1/13/2;
+    }
+    .thirteen{
+        grid-area: 13/1/14/2;
+    }
+    
+    /* .odd{
+        background: linear-gradient(45deg, yellow 30%, blue 30%, blue 60%, green 35%);
+    }
+    
+    .even{
+        background: radial-gradient(cyan 30%, tomato 30%, tomato 60%, magenta 35%);
+    }
+    
+    .prime{
+        background: repeating-linear-gradient(60deg, khaki 30%,  orchid 35% );
+    } */
 }
 
-.one{
-   grid-area: 6/3/7/4;
-}
-.two{
-    grid-area: 1/1/3/2;
-}
-.three{
-    grid-area: 3/1/6/2;
-}
-.four{
-    grid-area: 6/1/7/2;
-}
-.five{
-    grid-area: 2/3/3/4;
-}
-.six{
-    grid-area: 4/2/6/3;
-}
-.seven{
-    grid-area: 1/2/2/3;
-}
-.eight{
-    grid-area: 5/3/6/4;
-}
-.nine{
-    grid-area: 1/3/2/4;
-}
-.ten{
-    grid-area: 3/2/4/3;
-}
-.eleven{
-    grid-area: 6/2/7/3;
-}
-.twelve{
-    grid-area: 3/3/5/4;
-}
-.thirteen{
-    grid-area: 2/2/3/3;
-}
 
-/* .odd{
-    background: linear-gradient(45deg, yellow 30%, blue 30%, blue 60%, green 35%);
-}
 
-.even{
-    background: radial-gradient(cyan 30%, tomato 30%, tomato 60%, magenta 35%);
-}
 
-.prime{
-    background: repeating-linear-gradient(60deg, khaki 30%,  orchid 35% );
-} */
